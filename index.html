@@ -6,17 +6,29 @@
         <div class="container">
             <div class = "sides">
                 <h3>HOME</h3>
-                <div class = "score-background"></div>
+                <div class = "score-background">
+                    <h1 class = "score-count" id = "home-count">0</h1>
+                </div>
                 <div class ="score-buttons">
-                    <button class = "btn" class="add1()"></button>
-                    <button class = "btn" class="add1()"></button>
-                    <button class = "btn" class="add1()"></button>
+                    <button class = "btn" onclick="add1Home()"> +1 </button>
+                    <button class = "btn" onclick="add2Home()"> +2 </button>
+                    <button class = "btn" onclick="add3Home()"> +3 </button>
                 </div>
             </div>
             <div class = "sides">
                 <h3>GUEST</h3>
-                <div class = "score-background"></div>
+                <div class = "score-background">
+                    <h1 class = "score-count" id = "guest-count">0</h1>
+                </div>
+                <div class ="score-buttons">
+                    <button class = "btn" onclick="add1Guest()"> +1 </button>
+                    <button class = "btn" onclick="add2Guest()"> +2 </button>
+                    <button class = "btn" onclick="add3Guest()"> +3 </button>
+                </div>
             </div>
+        </div>
+        <div>
+            <button id = "startOver" onclick = startOver()>Start New Game</button>
         </div>
         <script src="index.js"></script>
     </body>

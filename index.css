@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Cursed Timer ULiL';
 }
 
 .container {
@@ -10,8 +11,9 @@ body {
     font-size: 40px;
     font-weight: 700px;
     color: white;
-    height: 450px;
-    width: 525px;
+    height: 400px;
+    width: 550px;
+    border-radius: 5px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 25px;
@@ -21,9 +23,12 @@ body {
 .score-background {
     width: 175px;
     height: 150px;
-    margin: 25px;
+    margin: 10px;
     background-color: #080001;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sides{
@@ -33,5 +38,35 @@ body {
 }
 
 .btn {
-    
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #075985;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL';
+    font-size: 18px;
+}
+
+.score-count{
+    color: #F94F6D;
+    font-size: 100px;
+    font-weight: 400;
+    font-family: 'Cursed Timer ULiL';
+}
+
+#startOver {
+    width: 150px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #075985;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL';
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 20px;
+
 }
